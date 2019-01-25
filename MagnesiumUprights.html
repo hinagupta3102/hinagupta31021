@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Oreck</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+	
+	<script>
+function myFunction() {
+  // Declare variables 
+  var input, filter, table, article, h3, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  article = table.getElementsByTagName("article");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < article.length; i++) {
+    h3 = article[i].getElementsByTagName("h3")[0];
+    if (h3) {
+      if (h3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        article[i].style.display = "";
+      } else {
+        article[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
+	
+	
+	
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							
+
+						</ul>
+						<ul class="icons">
+							<li class="active"><a href="index.html">Magnesium Uprights</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main" class="box alt">
+
+						<!-- Featured Post -->
+						<!-- Posts -->
+					<div class="field">
+						<input  type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Magnesium Uprights..">
+					</div>
+					<section class="posts" id="myTable" style="width: 100%; height: auto; overflow-y: auto;" >
+						<article>
+							<h3><a href="#">Magnesium RS</a></h3>
+							<a href="#" class="image fit"><span class="image left"><img src="images/rsswivel.jpg" alt="" /></span></a>
+						</article>
+						<article>
+							<h3><a href="#">Magnesium SP</a></h3>
+								<a href="" class="image fit"><span class="image left"><img src="images/MagSP.jpg" alt="" /></span></a>
+						</article>
+												<article>
+							<h3><a href="#">HEPA Magnesium Bags</a></h3>
+							<a href="#" class="image fit"><span class="image left"><img src="images/HEPA.jpg" alt="" /></span></a>
+						</article>						<article>
+							<h3><a href="#">Magnesium Bags</a></h3>
+							<a href="https://www.amazon.com/Santas-Little-Helper-Collectible-Notebook/dp/1981757120/ref=sr_1_1?s=books&ie=UTF8&qid=1518732151&sr=1-1&keywords=Ethi+Pike+Santa%27s+Little+Helper" class="image fit"><span class="image left"><img src="images/holiday/Santa's Little Helper.jpg" alt="" /></span></a>
+						</article>						<article>
+							
+							
+							
+						
+						
+						
+					</section>
+						
+						
+						
+						
+					</section>
+				</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3></h3>
+								<p><br />
+								</p>
+							</section>
+							<section>
+								<h3></h3>
+								<p><a href="#"></a></p>
+							</section>
+							<section>
+								<h3></h3>
+								<p>Follow Our Facebook Page!<a href="#"></a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									
+									<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+									
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
